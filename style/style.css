@@ -228,4 +228,48 @@ hr{
     border: solid 1px rgb(209, 209, 209);
     margin: 0 40px;
 }
+/* second page start */
+.compition-area{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    position: relative;
+    top: 130px;
+    grid-column-gap: 25px;
+}
+.compition img{
+    width: 100px;
+    
+}
+.country-compition{
+    display: flex;
+    flex-direction: row;
+}
+.compition {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    border: 1px solid gray;
+    width: 240px;
+    height: 242px;
+    border-radius: 5px;
+    justify-content: center;
+}
+.country-timimg{
+    justify-content: center;
+    
+}
+span{
+    color: black;
+    font-size: large;
+}
+.compition-area2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    position: relative;
+    top: 130px;
+    grid-column-gap: 30px;
+    margin-left: 280px;
+}
         
