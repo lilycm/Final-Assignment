@@ -172,16 +172,8 @@
             
         }
         /* second page start */
-        .containers{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-        }
-        .compition{
-            margin: 5px;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
+        .compititon{
+            display:flex;
             flex-direction: row;
             align-items: center;
             justify-content: center;
