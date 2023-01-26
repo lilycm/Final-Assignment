@@ -173,10 +173,24 @@
         }
         /* second page start */
         .compititon{
+            padding: 0 120px;
             display:flex;
             flex-direction: row;
             align-items: center;
             justify-content: center;
+        }
+        .compition2{
+            display:flex;
+            justify-content: center;
+        }
+        .compition{
+            margin: 5px;
+            position: relative;
+            top: 20px;
+        }
+        .courses{
+            position: relative;
+            left: 60px;
         }
         /* footer section start */
 footer{
