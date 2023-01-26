@@ -63,6 +63,10 @@
             border-radius: 3px;
             padding: 0 5px;
         }
+        .courses{
+           display: flex;
+           text-align: center;
+        }
         /* fist section end */
 
 
