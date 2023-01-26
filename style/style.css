@@ -172,16 +172,13 @@
             
         }
         /* second page start */
-        .compititon{
-            padding: 0 120px;
-            display:flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-        }
         .compition2{
             display:flex;
-            justify-content: center;
+            justify-content: right;
+            margin-right: 80px;
+        }
+        .country-timimg h3{
+            text-align: center;
         }
         .compition{
             margin: 5px;
