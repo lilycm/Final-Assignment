@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
         body {
             font-family: 'Poppins', sans-serif;
@@ -110,44 +110,30 @@
         .menu2 a{
             background-color: #f1efef;
             color: #f1efef;
-
         }
-        
         .courset{
             display: none;
         }
-        
-
         .hr {
             border: 1px solid #D1D1D1;
             width: 700px;
         }
-
-        
-        
         .course-banner img {
             width: 200px;
             height: 115px;
             
         }
-
-        
-        
-
-       
         .timing {
             color: #FF4A60;
             background-color: #FFE4E8;
             border-radius: 20px;
             padding: 8px;
         }
-
         .course-info {
             display: flex;
             align-items: center;
             justify-content: space-between;
         }
-
         .courses {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
@@ -165,9 +151,6 @@
             grid-template-columns: repeat(4, 1fr);
             grid-column-gap: 12px;
             margin-top: 25px;
-            
-           
-           
         }
         .course {
             width: 200px;
@@ -187,6 +170,21 @@
             box-shadow: 5px 6.34229px 13.3557px rgba(17, 1, 1, 0.05);
             grid-column-gap: 10px;
             
+        }
+        /* second page start */
+        .containers{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .compition{
+            margin: 5px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
         }
         /* footer section start */
 footer{
