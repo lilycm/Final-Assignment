@@ -63,10 +63,6 @@
             border-radius: 3px;
             padding: 0 5px;
         }
-        .courses{
-           display: flex;
-           text-align: center;
-        }
         /* fist section end */
 
 
@@ -147,8 +143,10 @@
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             grid-column-gap: 13px;
-           
-           
+        }
+        .play-field{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
         }
         .team1{
             display: grid;
@@ -180,6 +178,18 @@
             display:flex;
             justify-content: right;
             margin-right: 80px;
+        }
+        .compititon{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+        }
+        .world-compitition,
+        .world-compitition1{
+            display: flex;
+            margin-left: 20px;
+        }
+        .world-compitition{
+            margin-left: 49px;
         }
         .country-timimg h3{
             text-align: center;
